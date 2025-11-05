@@ -1,23 +1,19 @@
-# Portfolio — Parithi Ezhilmathi
+# Portfolio — Parithi Ezhilmathi (Upgraded)
 
-This is a simple static portfolio website (HTML, CSS, JS) ready to be pushed to GitHub Pages.
+This upgrade adds:
+- Slide + bounce animations for sections
+- A floating dark/light theme toggle (bottom-right)
+- A working contact form using Formsubmit.co (sends to parithiezhilmathia@gmail.com)
 
-## How to publish to GitHub Pages (quick)
-1. Create a new repository on GitHub (e.g., `parithi-portfolio`).
-2. In this local folder, initialize git:
-   ```bash
-   git init
+Important: Contact form (Formsubmit)
+- The form action is: https://formsubmit.co/parithiezhilmathia@gmail.com
+- For the first submission, Formsubmit will send a confirmation email to parithiezhilmathia@gmail.com. You must click the confirmation link once to enable the form.
+- If you want to customize the confirmation/redirect, visit https://formsubmit.co
+
+How to update your GitHub (same folder)
+1. Replace the files in your local repo folder with these updated files.
+2. In your terminal (inside the project folder):
    git add .
-   git commit -m "Initial portfolio commit"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git push -u origin main
-   ```
-3. On GitHub, go to repository Settings → Pages, and set Source to `main` branch `/ (root)`. Save.
-4. Your site will be available at `https://YOUR_USERNAME.github.io/YOUR_REPO/` within a minute.
+   git commit -m "Upgrade: animations, theme toggle, and contact form"
+   git push
 
-## Files
-- index.html
-- styles.css
-- script.js
-- profile.jpeg (your photo)
